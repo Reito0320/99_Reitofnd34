@@ -1,0 +1,410 @@
+@charset "utf-8";
+
+
+/* 
+使用する色
+
+#F5F5E5
+#FFFFFF
+#CBCD9E
+#F7F6F2
+#F8F7F2
+#1D1F21
+
+*/
+
+
+/*
+head
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+#jump-map:target {
+    animation: highligth 2.4s ease-in-out;
+}
+#jump-form:target {
+    animation: highligth 2.4s ease-in-out;
+}
+#jump-cart:target {
+    animation: highligth 2.4s ease-in-out;
+}
+#jump-title:target {
+    animation: highligth 2.4s ease-in-out;
+}
+
+/*
+body
+*/
+body {
+    font-family: "Kreon", serif;
+    background-color: #FEFCFB;
+}
+button,textarea,input,.submit{
+    cursor: pointer;
+}
+
+/*
+スクロールアイコンセクション
+*/
+.first-header{
+    background-color: #A27B5C;
+    text-align: right;
+
+}
+.title-link{  
+    text-decoration: none;
+    color: #1D1F21;
+    text-align: center;
+
+}
+.head-icon-link{
+    text-decoration: none;
+}
+.header-icon-img{
+    margin: 5px 5px;
+}
+hr{
+    margin: 0px;
+}
+.first-title{
+    background-color: #CBCD9E;
+    color: #efefef;
+    margin: 0px;
+    padding: 30px 30px 0px 30px;
+
+}   
+.discription{
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+    background-color: #CBCD9E;
+    font-style: italic;
+    color: #efefef;
+}
+.header-images{
+    list-style: none;
+    display: flex;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+/*
+菜花メインセクション
+*/
+
+.first-figure{
+    text-align: center;
+
+}
+.first-img{ 
+    box-shadow: 10px 10px #efefef;
+    display: inline-block;
+    margin: 100px;
+    
+}
+.fig-title{
+    text-align: center;
+}
+.fig-ul{
+    list-style: none;
+    padding: 20px;
+    margin: 5px 20px 20px 20px;
+
+
+}
+.fig-ul > li {
+    margin: 30px 0px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+/*
+産地の風景セクション
+*/
+
+.second-section{
+    margin: 0;
+
+}
+.second-h1{
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+    background-color: #CBCD9E;
+    color: #efefef;
+}
+.second-ul{
+    list-style: none;
+    margin: 100px 0px 100px 0px;
+    padding: 0px;
+}
+.second-ul > .second-li{
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+}
+.second-li > .second-dl{
+    text-align: center;
+}
+.second-dt{
+    margin: 20px 0px;
+    font-weight: bold;
+}
+.second-dd{
+    margin: 0px;
+}
+.dl-img{
+    box-shadow: 10px 10px #efefef;
+}
+
+/* 
+生産者の声セクション 
+*/
+
+.sard-title{
+    text-align: center;
+    color: #efefef;
+    background-color: #CBCD9E;
+    padding: 20px;
+    margin: 0px;
+}
+.sard-img{
+    text-align: center;
+    display: inline-block
+
+}
+.sard-section{
+    margin: 0px;
+    text-align: center;
+}
+.sard-fig-title{
+    margin-top: 0px;
+}
+.sard-fig-ul{
+    list-style: none;
+}
+.sard-fig-ul > li {
+    margin: 10px;
+}
+
+
+/*
+商品一覧セクション
+ */
+
+.fourth-title{
+    background-color: #CBCD9E;
+    padding: 20px;
+    color: #efefef;
+    text-align: center;
+    margin-top: 50px;
+}
+.fourth-fig{
+    text-align: center;
+}
+.fourth-date-link{
+    margin: 60px;
+}
+.fourth-date-link > input:hover{
+    background-color: #CBCD9E;
+    box-shadow: 0px 0px;
+}
+.fourth-date-link > input{
+    background-color: #efefef;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px #efefef;
+}
+
+
+/*
+お問い合わせセクション 
+*/
+
+.form-title{
+    text-align: center;
+    color: #efefef;
+    background-color: #CBCD9E;
+    padding: 20px;
+    margin: 0px;
+}
+.form{
+    margin: 50px;
+    padding: 100px;
+}
+.form-table{
+    margin: 0 auto;
+
+}
+.form-text{
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 500px;
+    margin: 5px;
+}
+.form-email{
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 500px;
+    margin: 5px;
+}
+.form-textarea{
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 500px;
+    margin: 5px;
+}
+.submit{
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: #efefef;
+    box-shadow: 10px 10px #efefef;
+    margin: 5px;
+}
+.submit:hover {
+    background-color: #CBCD9E;
+    box-shadow: 0px 0px;
+}
+
+.form-button-div{
+    text-align: center;
+}
+
+/*
+買い物カゴセクション
+*/
+
+.page-title{
+    text-align: center;
+    color: #efefef;
+    background-color: #CBCD9E;
+    margin: 0px;
+    padding: 30px 30px 30px 30px;
+}
+.first-shopping-item{
+    padding: 50px;
+    border: solid;
+    color: white;
+    margin: 70px 0px;
+    text-align: center;
+}
+.second-shopping-item{
+    padding: 50px;
+    border: solid;
+    color: white;
+    margin: 70px 0px;
+    text-align: center;
+}
+.thred-shopping-item{
+    padding: 50px;
+    border: solid;
+    color: white;
+    margin: 70px 0px;
+    text-align: center;
+}
+.two-button{
+    display: flex;
+    margin: 0px 500px 100px 500px;
+}
+.two-button > button{
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: #efefef;
+    box-shadow: 10px 10px #efefef;
+    margin: 0 auto;
+    display: block;
+}
+.two-button > button:hover {
+    background-color: #CBCD9E;
+    box-shadow: 0px 0px;
+}
+
+
+/*
+会社情報セクション
+*/
+
+.footer-title{
+    text-align: center;
+    color: #efefef;
+    background-color: #CBCD9E;
+    padding: 20px;
+    margin: 0px;
+}
+.footer-figure{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+iframe{
+    margin: 20px;
+}
+.map-link{
+    text-decoration: none;
+    color: #1D1F21;
+}
+.map-discription{
+    font-weight: bold;
+    font-style: italic;
+}
+.mark{
+    margin: 0px;
+    text-align: center;
+    background-color: #A27B5C;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*
+ご挨拶セクション
+*/
+.footer-title{
+    text-align: center;
+    color: #efefef;
+    background-color: #CBCD9E;
+    margin: 0px;
+    padding: 30px 30px 30px 30px;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+}
+.compmark{
+    background-color: #A27B5C;
+    text-align: center;
+}
+
+/*
+引用元セクション 
+*/
+
+.index{
+    padding-bottom: 20px;
+    background-color: #efefef;
+}
+.index-title{
+    text-align: center;
+    color: #efefef;
+    background-color: #CBCD9E;
+    margin: 0px;
+    padding: 30px 30px 30px 30px;
+}
+.index-ul{
+    list-style: none;
+    text-align: center;
+}
+.index-ank{
+    text-decoration: none;
+}
+
